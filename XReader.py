@@ -7,23 +7,13 @@ from gtts import gTTS
 import tempfile
 from playsound import playsound
 ctypes.windll.shcore.SetProcessDpiAwareness(2) # windows 10
-
 import pytesseract
 from pytesseract import image_to_string
 from pynput import keyboard
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 from deep_translator import GoogleTranslator
-
-
-
-
-
-
 import threading
-
 from pynput import keyboard
-
-
 
 
 def DrawWindow():
